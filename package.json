@@ -39,6 +39,6 @@
     }
   },
   "scripts": {
-    "test": "jshint . && protractor && mocha"
+    "test": "jshint . && protractor && mocha && karma start --single-run"
   }
 }
